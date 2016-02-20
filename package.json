@@ -1,0 +1,17 @@
+{
+  "name": "dwujescica",
+  "description": "Polish cyrillic transcriptor",
+  "license": "MIT",
+  "dependencies": {
+    "virtual-dom": "latest"
+  },
+  "devDependencies": {
+    "bower": "latest",
+    "browserify": "latest",
+    "gulp": "latest",
+    "gulp-purescript": "latest",
+    "purescript": "latest",
+    "vinyl-source-stream": "latest",
+    "rimraf": "latest"
+  }
+}
