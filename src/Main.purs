@@ -1,6 +1,6 @@
 module Main where
 
-import Prelude (class Applicative, id, ($), (<$>), (<<<), (>>>), (++))
+import Prelude (class Applicative, id, ($), (<$>), (<<<), (>>>), (++), const)
 
 import Data.Array (zip)
 import Data.Char (toString)
@@ -96,7 +96,7 @@ transcribe =
  transliterate
 
 translens :: LensP String String                  -- TODO use a GetterP
-translens = lens transcribe (\s _ -> s)
+translens = lens transcribe const
 
 textAreaField :: forall eff m k. (Applicative m) => String -> Boolean -> UI eff m k Markup String String
 textAreaField title ro = with $ \s h -> let
