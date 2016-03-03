@@ -89,6 +89,8 @@ transcribe =
  replaceAll "Ju|ьU" "Ю"                                              >>>
  replaceAll "ch" "х"                                                 >>>
  replaceAll "Ch" "Х"                                                 >>>
+ replaceAll "szcz" "щ"                                               >>>
+ replaceAll "Szcz" "Щ"                                               >>>
  replaceAll "cz" "ч"                                                 >>>
  replaceAll "Cz" "Ч"                                                 >>>
  replaceAll "sz" "ш"                                                 >>>
