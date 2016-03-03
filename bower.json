@@ -14,7 +14,6 @@
     "purescript-arrays": "latest",
     "purescript-strings": "latest",
     "purescript-foldable-traversable" : "latest",
-    "purescript-optic-ui": "*",
-    "purescript-console": "^0.1.0"
+    "purescript-optic-ui": "*"
   }
 }
