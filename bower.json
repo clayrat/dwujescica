@@ -14,6 +14,6 @@
     "purescript-arrays": "latest",
     "purescript-strings": "latest",
     "purescript-foldable-traversable" : "latest",
-    "purescript-optic-ui": "*"
+    "purescript-optic-ui": "git://github.com/clayrat/purescript-optic-ui.git#562c25578445975203b1385c0fa60729ea3d8851"
   }
 }
