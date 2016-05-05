@@ -35,12 +35,19 @@ transcribe =
  replaceAll "\\b([aA]d|[bB]ez|[kK]on|[nN]ad|[oO]b|[oO]d|[pP]od|[pP]ół|[pP]onad|[pP]rzed|[pP]rzeciw|[rR]oz|[sS]ub|[wW]|[wW]spół|[wW]szech|[wW]z|[zZ])j"
                              "$1ъj"                                  >>>
  replaceAll "dzi([aąeęoóu])" "dь$1"                                  >>>
+ replaceAll "Dzi([aąeęoóu])" "Dь$1"                                  >>>
  replaceAll "ci([aąeęoóu])" "tь$1"                                   >>>
+ replaceAll "Ci([aąeęoóu])" "Tь$1"                                   >>>
  replaceAll "l([aąeęoóu])" "łь$1"                                    >>>
+ replaceAll "L([aąeęoóu])" "Łь$1"                                    >>>
  replaceAll "di([aąeęoóu])" "dïj$1"                                  >>>
+ replaceAll "Di([aąeęoóu])" "Dïj$1"                                  >>>
  replaceAll "li([aąeęoóu])" "łьj$1"                                  >>>
+ replaceAll "Li([aąeęoóu])" "Łьj$1"                                  >>>
  replaceAll "ri([aąeęoóu])" "rïj$1"                                  >>>
+ replaceAll "Ri([aąeęoóu])" "Rïj$1"                                  >>>
  replaceAll "ti([aąeęoóu])" "tïj$1"                                  >>>
+ replaceAll "Ti([aąeęoóu])" "Tïj$1"                                  >>>
  replaceAll "di" "dï"                                                >>>
  replaceAll "ri" "rï"                                                >>>
  replaceAll "ti" "tï"                                                >>>
