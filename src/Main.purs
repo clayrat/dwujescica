@@ -82,12 +82,12 @@ transcribe =
  replaceAll "([bcdfghjkłmnprstwzż])j" "$1ьj"                         >>>
  replaceAll "[ьj]a" "я"                                              >>>
  replaceAll "Ja|ьA" "Я"                                              >>>
- replaceAll "[ьj]ą" "ѭ"                                              >>>
+ replaceAll "[ьj]ą" "ѭ"                                             >>>
  replaceAll "Ją|ьĄ" "Ѭ"                                             >>>
  replaceAll "[ьj]e" "є"                                              >>>
  replaceAll "Je|ьE" "Є"                                              >>>
  replaceAll "[ьj]ę" "ѩ"                                              >>>
- replaceAll "Ję|ьĘ" "Ѩ"                                              >>>
+ replaceAll "Ję|ьĘ" "Ѩ"                                             >>>
  replaceAll "[ьj]o" "є̈"                                              >>>
  replaceAll "Jo|ьO" "Є̈"                                              >>>
  replaceAll "[ьj]ó" "є́"                                              >>>
@@ -117,7 +117,7 @@ textAreaField title ro = with $ \s h -> let
 
 main = animate "" $ with \s h -> mconcat
   [ ui $ H.h1_ $ text "Polish cyrillic transliterator (Dwujescica)"
-  , ui $ H.h4_ (text "idea by " ++ (H.a [H.hrefA "http://wiki.lingvoforum.net/w/Участник:Hellerick/Польская_кириллица"] $ text "Hellerick"))
+  , ui $ H.h4_ (text "idea by " ++ (H.a [H.hrefA "https://wiki.lingvoforum.net/wiki/index.php/Участник:Hellerick/Польская_кириллица"] $ text "Hellerick"))
   , withView (H.div [H.styleA "display:flex;"]) $ mconcat
    [             textAreaField "Łacinka"  false
    , translens $ textAreaField "Цырылица" true
